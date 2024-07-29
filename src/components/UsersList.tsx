@@ -1,13 +1,6 @@
-import React from 'react';
 import { List } from 'antd';
 import UserCard from './UserCard';
-
-interface User {
-    id: number;
-    name: string;
-    isOnline: boolean;
-    avatarUrl?: string;
-}
+import { User } from '../types/user';
 
 interface UserListProps {
     users: User[];
