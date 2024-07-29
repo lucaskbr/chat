@@ -15,9 +15,6 @@ function UserCard({ user, onClick }: UserCardProps) {
                 width: 300,
                 cursor: 'pointer',
                 transition: 'box-shadow 0.3s',
-                ':hover': {
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                },
             }}>
             <Card.Meta
                 avatar={

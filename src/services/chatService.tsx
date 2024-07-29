@@ -13,13 +13,9 @@ export class ChatService {
                     id: CURRENT_USER_ID,
                     name: faker.person.fullName(),
                     avatarUrl: `https://robohash.org/${1}?set=set4`,
-
+                    isOnline: true
                 },
-                {
-                    id: user.id,
-                    name: user.name,
-                    avatarUrl: `https://robohash.org/${user.id}?set=set4`,
-                },
+                user,
             ],
         };
 
